@@ -1,0 +1,31 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "admin",
+        "password": "password123",
+        "role": "ADMIN"
+      },
+      {
+        "id": 2,
+        "username": "user1",
+        "password": "userpassword",
+        "role": "USER"
+      }
+    ],
+    "transactions": [
+      {
+        "id": 101,
+        "description": "Amazon Purchase",
+        "amount": 120,
+        "userId": 2
+      },
+      {
+        "id": 102,
+        "description": "Netflix Subscription",
+        "amount": 15,
+        "userId": 2
+      }
+    ]
+  }
+  
